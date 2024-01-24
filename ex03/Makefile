@@ -1,8 +1,8 @@
-NAME		:= zombie
+NAME		:= violence
 
 #SOURCES_____________________________________________________________
 
-SRCS		:=	main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRCS		:=	main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
 
 #OBJECT______________________________________________________________
 

@@ -1,8 +1,8 @@
-NAME		:= zombie
+NAME		:= horde
 
 #SOURCES_____________________________________________________________
 
-SRCS		:=	main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRCS		:=	main.cpp Zombie.cpp zombieHorde.cpp
 
 #OBJECT______________________________________________________________
 

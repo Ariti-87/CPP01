@@ -23,8 +23,11 @@
 *.gch
 
 # Exec
-megaphone
-awesome
-bank
+zombie
+horde
+brain
+violence
+notreplace
+harl*
 .nfs*
 

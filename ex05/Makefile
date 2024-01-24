@@ -1,8 +1,8 @@
-NAME		:= zombie
+NAME		:= harl
 
 #SOURCES_____________________________________________________________
 
-SRCS		:=	main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRCS		:=	main.cpp Harl.cpp
 
 #OBJECT______________________________________________________________
 

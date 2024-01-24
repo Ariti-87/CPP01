@@ -1,8 +1,8 @@
-NAME		:= zombie
+NAME		:= brain
 
 #SOURCES_____________________________________________________________
 
-SRCS		:=	main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRCS		:=	main.cpp
 
 #OBJECT______________________________________________________________
 
