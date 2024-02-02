@@ -14,7 +14,7 @@ int main()
 
 	std::cout << "Valeur de string : " << str << std::endl;
 	std::cout << "Valeur pointe par stringPTR : " << *stringPTR << std::endl;
-	std::cout << "Valeur pointe par stringREF : " << stringREF << std::endl;
+	std::cout << "Valeur reference par stringREF : " << stringREF << std::endl;
 
 	return 0;
 }

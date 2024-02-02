@@ -3,16 +3,17 @@
 
 int main(int argc, char **argv)
 {
-	std::string s1 = argv[2];
-	std::string s2 = argv[3];
+	std::string s1;
+	std::string s2;
 	std::ifstream inFile;
 	std::ofstream outFile;
-
 	if (argc != 4)
 	{
 		std::cerr << "this program take 3 arguments" << std::endl;
 		return 1;
 	}
+	s1 = argv[2];
+	s2 = argv[3];
 	inFile.open(argv[1]);
 	if (!inFile)
 	{
@@ -23,6 +24,11 @@ int main(int argc, char **argv)
 	if (!outFile)
 	{
 		std::cerr << "Error opening Outfile : " << argv[1] << ".replace" << std::endl;
+		return 1;
+	}
+	if (s1 == "")
+	{
+		std::cerr << "[" << argv[2] << "] is not a valid string" << std::endl;
 		return 1;
 	}
 	std::string line;

@@ -6,7 +6,7 @@ int main(void)
 {
 	int nb(10);
 
-	Zombie *z = zombieHorde(nb, "Rin");
+	Zombie *z = zombieHorde(nb, "HordeOfRin");
 	for (int i = 0; i < nb; i++)
 	{
 		z[i].annonce();

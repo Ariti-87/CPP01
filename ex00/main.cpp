@@ -8,6 +8,9 @@ void randomChump( std::string name );
 
 int main(void)
 {
+	Zombie cos("Cos");
+	cos.annonce();
+
 	randomChump("Rin");
 	randomChump("Rin1");
 	randomChump("Rin2");
