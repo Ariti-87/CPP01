@@ -11,10 +11,8 @@ int main(void)
 	Zombie cos("Cos");
 	cos.annonce();
 
-	randomChump("Rin");
-	randomChump("Rin1");
-	randomChump("Rin2");
-	Zombie *Rin3 = newZombie("Rin3");
+	randomChump("Sin");
+	Zombie *Rin3 = newZombie("Tan");
 	Rin3->annonce();
 	delete Rin3;
 
